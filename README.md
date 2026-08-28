@@ -6,7 +6,7 @@ Statische Seite in einer einzigen HTML-Datei. Ohne Build, ohne Frameworks und oh
 
 - **Veröffentlichte Website (Vercel):** https://einfacher-gemusegarten.vercel.app
 - **GitHub Repository:** https://github.com/crieia2024-bot/einfacher-gemusegarten
-- **Checkout Hotmart:** `https://pay.hotmart.com/V107356357I?checkoutMode=2`
+- **Checkout Hotmart:** `https://pay.hotmart.com/T107366167D?checkoutMode=2`
 
 ---
 
