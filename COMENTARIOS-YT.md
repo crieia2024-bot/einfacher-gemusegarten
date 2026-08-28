@@ -1,6 +1,6 @@
 # Angepinnte YouTube-Kommentare (Einfacher Gemüsegarten)
 
-Ersetze `DEINLINK` durch die finale URL deiner Verkaufsseite.
+Link zur Verkaufsseite: `https://einfacher-gemusegarten.vercel.app`
 
 YouTube unterstützt nur Formatierungen mit `*fett*`, `_kursiv_` und `-durchgestrichen-`. Verwende kein Markdown.
 Die **ersten 3 Zeilen** sind das, was vor dem "Mehr anzeigen"-Button sichtbar ist – der Link **muss** in diesem oberen Bereich stehen.
@@ -13,7 +13,7 @@ Die **ersten 3 Zeilen** sind das, was vor dem "Mehr anzeigen"-Button sichtbar is
 📗 Ich habe alles, was ich hier auf dem Kanal zeige, in einem 295-seitigen Praxishandbuch zusammengefasst.
 
 *LEBENDIGER GEMÜSEGARTEN* — No-Dig-Beete, eigener Dünger und Anbaukalender mit exakten Maßen für alles.
-👉 DEINLINK
+👉 https://einfacher-gemusegarten.vercel.app
 
 Ich habe den Preis auf *9,99 €* gesetzt, ein rein symbolischer Beitrag. Es geht nicht darum, viel Geld zu verlangen: Es hilft, diesen Kanal am Leben zu halten. Die Videos hier bleiben 100% kostenlos – und wer das Buch kauft, finanziert die Zeit für Tests, Drehs und Schnitte 💚
 ```
@@ -26,7 +26,7 @@ Ich habe den Preis auf *9,99 €* gesetzt, ein rein symbolischer Beitrag. Es geh
 📗 Wenn dir dieses Rezept geholfen hat: Im Handbuch findest du 13 weitere Bio-Rezepte – plus Bokashi, 3-Eimer-Komposter und Wurmkiste Schritt für Schritt.
 
 *LEBENDIGER GEMÜSEGARTEN* · 295 Seiten
-👉 DEINLINK
+👉 https://einfacher-gemusegarten.vercel.app
 
 Alles mit genauen Mengenangaben: wie viel von jeder Zutat, wie viele Tage Ruhezeit und wie du es verdünnst.
 Für 9,99 € als symbolischer Beitrag – wer den Kanal unterstützen möchte, hilft enorm 💚
@@ -40,7 +40,7 @@ Für 9,99 € als symbolischer Beitrag – wer den Kanal unterstützen möchte, 
 📗 Das Beet aus diesem Video ist im Handbuch Schicht für Schicht erklärt – mit den exakten Maßen und Tipps, wo du jedes Material kostenlos bekommst.
 
 *LEBENDIGER GEMÜSEGARTEN* · 295 Seiten, 40 Diagramme
-👉 DEINLINK
+👉 https://einfacher-gemusegarten.vercel.app
 
 Inklusive Anleitung für alle ohne großen Garten: Pflanzkübel, Säcke und vertikaler Pflanzturm.
 9,99 €, symbolischer Beitrag zur Unterstützung des Kanals 💚
@@ -51,7 +51,7 @@ Inklusive Anleitung für alle ohne großen Garten: Pflanzkübel, Säcke und vert
 ## 4. Kurz — für YouTube Shorts / Reels
 
 ```
-📗 Komplettes Handbuch, 295 Seiten: DEINLINK
+📗 Komplettes Handbuch, 295 Seiten: https://einfacher-gemusegarten.vercel.app
 No-Dig-Beete + eigener Dünger + Anbaukalender
 9,99 € — symbolischer Beitrag, unterstützt den Kanal 💚
 ```
@@ -63,7 +63,7 @@ No-Dig-Beete + eigener Dünger + Anbaukalender
 Antworte direkt auf Kommentare wie "Gibt es dazu ein Buch / PDF?":
 
 ```
-Ja, genau! Ich habe das gesamte Wissen in einem 295-seitigen Handbuch zusammengefasst 👉 DEINLINK
+Ja, genau! Ich habe das gesamte Wissen in einem 295-seitigen Handbuch zusammengefasst 👉 https://einfacher-gemusegarten.vercel.app
 Ich habe es für 9,99 € als symbolischen Beitrag reingestellt, um den Kanal zu finanzieren.
 Wenn du vorab Fragen hast, schreib mir gerne direkt hier 💚
 ```

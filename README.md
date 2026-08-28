@@ -4,7 +4,8 @@ Statische Seite in einer einzigen HTML-Datei. Ohne Build, ohne Frameworks und oh
 
 ## Wichtige Links
 
-- **Verkaufsseite:** `index.html`
+- **Veröffentlichte Website (Vercel):** https://einfacher-gemusegarten.vercel.app
+- **GitHub Repository:** https://github.com/crieia2024-bot/einfacher-gemusegarten
 - **Checkout Hotmart:** `https://pay.hotmart.com/V107356357I?checkoutMode=2`
 
 ---
@@ -28,13 +29,11 @@ cd /Users/juananjos/Documents/pagina-vendas-de && python3 -m http.server 4400
 
 ---
 
-## Veröffentlichung auf Vercel
+## Veröffentlichung / Aktualisierung auf Vercel
 
 ```bash
 cd /Users/juananjos/Documents/pagina-vendas-de
-git init
 git add .
-git commit -m "Verkaufsseite Lebendiger Gemüsegarten"
-gh repo create einfacher-gemusegarten --public --source=. --push
-vercel --prod --yes
+git commit -m "Aktualisierung"
+git push
 ```
