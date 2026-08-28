@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lebendiger Gemüsegarten — Das komplette Praxishandbuch für den ertragreichen Garten zu Hause</title>
+<meta name="description" content="295 Seiten mit der exakten Methode für No-Dig-Beete, eigenen Dünger aus Küchenabfällen und Ernte das ganze Jahr. 9,99 €, symbolischer Beitrag zur Unterstützung des Kanals Einfacher Gemüsegarten.">
+<meta property="og:title" content="Lebendiger Gemüsegarten — Das komplette Praxishandbuch">
+<meta property="og:description" content="No-Dig-Beet ohne Umgraben, kostenloser Dünger aus Küchenabfällen und Aussaatkalender. 295 Seiten für 9,99 € — symbolischer Beitrag zur Unterstützung des Kanals.">
+<meta property="og:image" content="img/capa.jpg?v=3">
+<meta property="og:type" content="product">
+<link rel="icon" type="image/png" href="favicon.png?v=3">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png?v=3">
+<meta name="theme-color" content="#072e22">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* ==========================================================================
+   VERKAUFSSEITE — LEBENDIGER GEMÜSEGARTEN
+   Mobile-first: Schrift 18px, Buttons 62px Mindesthöhe.
+   ========================================================================== */
+:root{
+  --verde-escuro:#072e22; --verde:#0d4a36; --verde-claro:#1c6b4f;
+  --ouro:#c59b27; --ouro-claro:#e5c365;
+  --creme:#faf8f5; --creme-cartao:#f4eee1;
+  --tinta:#1f2923; --tinta-fraca:#4a5750;
+  --alerta:#a33b1f;
+  --serif:"Cinzel",Georgia,serif;
+  --sans:"Montserrat","Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  font-family:var(--sans); font-size:18px; line-height:1.62;
+  color:var(--tinta); background:var(--creme);
+  -webkit-font-smoothing:antialiased;
+  padding-bottom:96px; /* Platz für die fixierte mobile Leiste */
+}
+img{max-width:100%;height:auto;display:block}
+.env{width:100%;max-width:660px;margin:0 auto;padding:0 20px}
+
+h1,h2,h3{font-family:var(--serif);line-height:1.15;letter-spacing:.2px}
+h1{font-size:34px;font-weight:800}
+h2{font-size:27px;font-weight:700;color:var(--verde-escuro);margin-bottom:18px}
+h3{font-size:20px;font-weight:700;color:var(--verde-escuro)}
+p{margin-bottom:18px}
+strong{font-weight:700;color:var(--verde-escuro)}
+section{padding:52px 0}
+
+/* ------------------------------------------------------------------ hero */
+.hero{
+  background:linear-gradient(175deg,#0a3a2b 0%,var(--verde-escuro) 60%,#04211a 100%);
+  color:#fff; text-align:center; padding:38px 0 46px;
+}
+.logo{
+  width:104px;height:104px;margin:0 auto 18px;border-radius:50%;
+  border:3px solid var(--ouro-claro);
+  box-shadow:0 8px 24px rgba(0,0,0,.4);
+}
+.selo{
+  display:inline-block;border:1.5px solid var(--ouro-claro);color:var(--ouro-claro);
+  font-family:var(--serif);font-size:12px;letter-spacing:2.4px;text-transform:uppercase;
+  padding:9px 20px;border-radius:40px;margin-bottom:24px;font-weight:700;
+}
+.hero h1{color:var(--ouro-claro);margin-bottom:16px}
+.hero .sub{font-size:20px;color:#e6efe9;margin-bottom:28px;font-weight:400}
+.hero .capa{
+  width:78%;max-width:290px;margin:0 auto 30px;border-radius:6px;
+  box-shadow:0 22px 50px rgba(0,0,0,.55);
+}
+.hero .marca{
+  font-family:var(--serif);font-size:13px;letter-spacing:2.6px;
+  text-transform:uppercase;color:var(--ouro);margin-top:26px;
+}
+
+/* ----------------------------------------------------------------- button */
+.btn{
+  display:flex !important;flex-direction:column !important;align-items:center !important;justify-content:center !important;
+  width:100% !important;min-height:66px !important;padding:16px 22px !important;
+  background:linear-gradient(180deg,#e0b93f 0%,var(--ouro) 100%) !important;
+  color:var(--verde-escuro) !important;
+  font-family:var(--sans) !important;font-size:20px !important;font-weight:800 !important;line-height:1.25 !important;
+  text-align:center !important;text-decoration:none !important;
+  border:0 !important;border-radius:10px !important;
+  box-shadow:0 8px 20px rgba(0,0,0,.28) !important;
+  transition:transform .12s ease, box-shadow .12s ease !important;
+  cursor:pointer;
+}
+.btn:active{transform:translateY(2px) !important;box-shadow:0 4px 12px rgba(0,0,0,.3) !important}
+.btn small{display:block !important;font-size:14px !important;font-weight:600 !important;opacity:.82 !important;margin-top:3px !important}
+.sob-btn{font-size:15px;color:#c9d8cf;margin-top:14px;line-height:1.5}
+.preco{margin:6px 0 22px}
+.preco .de{font-size:17px;color:#a9bdb2;text-decoration:line-through}
+.preco .por{font-family:var(--serif);font-size:44px;font-weight:800;color:#fff;display:block;line-height:1.1}
+.preco .vez{font-size:15px;color:#c9d8cf}
+
+/* -------------------------------------------------------------------- problem */
+.dor{background:var(--creme-cartao)}
+.dor ul{list-style:none;margin:0 0 24px}
+.dor li{
+  position:relative;padding-left:38px;margin-bottom:18px;font-size:18px;
+}
+.dor li::before{
+  content:"✕";position:absolute;left:0;top:-1px;
+  width:26px;height:26px;border-radius:50%;
+  background:var(--alerta);color:#fff;font-size:14px;font-weight:700;
+  display:flex;align-items:center;justify-content:center;
+}
+.frase{
+  border-left:5px solid var(--ouro);background:#fff;
+  padding:20px 22px;margin:28px 0;font-size:19px;line-height:1.55;
+  border-radius:0 8px 8px 0;
+}
+
+/* --------------------------------------------------------------- solution */
+.solucao ul{list-style:none}
+.solucao li{
+  position:relative;padding-left:38px;margin-bottom:18px;font-size:18px;
+}
+.solucao li::before{
+  content:"✓";position:absolute;left:0;top:-1px;
+  width:26px;height:26px;border-radius:50%;
+  background:var(--verde-claro);color:#fff;font-size:15px;font-weight:700;
+  display:flex;align-items:center;justify-content:center;
+}
+
+/* ------------------------------------------------------------- pillars */
+.pilares{display:grid;gap:16px;margin-top:26px}
+.pilar{
+  background:#fff;border:1px solid rgba(197,155,39,.35);
+  border-left:6px solid var(--ouro);border-radius:10px;padding:22px;
+}
+.pilar h3{margin-bottom:8px;font-size:19px}
+.pilar p{margin:0;font-size:17px;color:var(--tinta-fraca)}
+
+/* ----------------------------------------------------------------- look inside */
+.dentro{background:var(--verde-escuro);color:#fff}
+.dentro h2{color:var(--ouro-claro)}
+.dentro p{color:#d4e2da}
+.paginas{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:26px}
+.paginas figure{margin:0}
+.paginas img{border-radius:6px;box-shadow:0 10px 26px rgba(0,0,0,.45)}
+.paginas figcaption{
+  font-size:13px;color:var(--ouro-claro);margin-top:8px;text-align:center;
+  line-height:1.4;
+}
+
+/* ---------------------------------------------------------------- numbers */
+.numeros{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:26px}
+.num{background:var(--creme-cartao);border-radius:10px;padding:20px 14px;text-align:center}
+.num b{display:block;font-family:var(--serif);font-size:34px;color:var(--verde);line-height:1}
+.num span{font-size:15px;color:var(--tinta-fraca);display:block;margin-top:6px}
+
+/* ----------------------------------------------------------------- channel */
+.canal{background:var(--verde);color:#fff;text-align:center}
+.canal h2{color:var(--ouro-claro)}
+.canal p{color:#dbe8e1;font-size:18px}
+
+/* -------------------------------------------------------------- closing */
+.fechar{text-align:center;background:var(--creme-cartao)}
+.fechar .btn{margin-top:24px}
+.garantia{
+  background:#fff;border:2px dashed var(--ouro);border-radius:12px;
+  padding:24px;margin-top:30px;text-align:left;
+}
+.garantia h3{margin-bottom:10px}
+.garantia p{margin:0;font-size:17px;color:var(--tinta-fraca)}
+
+/* ------------------------------------------------------- mobile fixed bar */
+.barra{
+  position:fixed;left:0;right:0;bottom:0;z-index:50;
+  background:rgba(7,46,34,.97);backdrop-filter:blur(8px);
+  padding:12px 16px calc(12px + env(safe-area-inset-bottom));
+  box-shadow:0 -6px 22px rgba(0,0,0,.35);
+}
+.barra .btn{min-height:58px !important;font-size:19px !important}
+.barra .linha{
+  display:flex;align-items:center;justify-content:center;gap:10px;
+  color:#c9d8cf;font-size:14px;margin-bottom:8px;
+}
+.barra .linha b{color:#fff;font-size:18px;font-family:var(--serif)}
+
+footer{background:var(--verde-escuro);color:#8fa79b;text-align:center;
+  font-size:14px;padding:34px 0}
+footer a{color:var(--ouro-claro)}
+
+/* ---------------------------------------------------------------- desktop */
+@media (min-width:760px){
+  body{font-size:19px;padding-bottom:0}
+  h1{font-size:48px} h2{font-size:34px}
+  .env{max-width:760px}
+  section{padding:76px 0}
+  .hero{padding:60px 0 70px}
+  .hero .capa{max-width:340px}
+  .logo{width:124px;height:124px}
+  .btn{width:auto !important;min-width:420px !important;margin:0 auto !important;font-size:22px !important;min-height:72px !important}
+  .preco .por{font-size:54px}
+  .pilares{grid-template-columns:1fr 1fr}
+  .paginas{grid-template-columns:repeat(3,1fr)}
+  .numeros{grid-template-columns:repeat(4,1fr)}
+  .barra{display:none}
+}
+</style>
+
+<!-- Hotmart Checkout Widget -->
+<script type="text/javascript">
+	function importHotmart(){ 
+ 		var imported = document.createElement('script'); 
+ 		imported.src = 'https://static.hotmart.com/checkout/widget.min.js'; 
+ 		document.head.appendChild(imported); 
+		var link = document.createElement('link'); 
+		link.rel = 'stylesheet'; 
+		link.type = 'text/css'; 
+		link.href = 'https://static.hotmart.com/css/hotmart-fb.min.css'; 
+		document.head.appendChild(link);	} 
+ 	importHotmart(); 
+</script>
+</head>
+<body>
+
+<header class="hero">
+  <div class="env">
+    <img class="logo" src="img/logo.png?v=3" alt="Logo des Kanals Einfacher Gemüsegarten">
+    <div class="selo">Kanal Einfacher Gemüsegarten</div>
+    <img class="capa" src="img/capa.jpg?v=3" alt="Buchcover Lebendiger Gemüsegarten">
+    <h1>Dein Gemüsegarten ist nicht am fehlenden grünen Daumen gescheitert</h1>
+    <p class="sub">Er ist an fehlenden exakten Maßen gescheitert. Dieses Handbuch liefert dir die 295 Seiten mit den Maßen, die bisher gefehlt haben.</p>
+
+    <div class="preco">
+      <span class="de">27 €</span>
+      <span class="por">9,99 €</span>
+      <span class="vez">symbolischer Beitrag · sichere Zahlung per Karte, PayPal oder Klarna</span>
+    </div>
+
+    <a onclick="return false;" href="https://pay.hotmart.com/V107356357I?checkoutMode=2" class="btn hotmart-fb hotmart__button-checkout">
+      ICH WILL DAS KOMPLETTE HANDBUCH
+      <small>sofortiger Zugriff, direkt auf deinem Smartphone</small>
+    </a>
+    <p class="sob-btn">PDF optimiert fürs Smartphone · 295 Seiten · 104 Fotos<br>Mit deinem Kauf unterstützt du die Fortführung des Kanals 💚</p>
+    <div class="marca">Ausgabe 2026</div>
+  </div>
+</header>
+
+<!-- ------------------------------------------------------------------ problem -->
+<section class="dor">
+  <div class="env">
+    <h2>Das kennst du bestimmt</h2>
+    <ul>
+      <li>Du hast im Baumarkt oder auf dem Markt schöne Jungpflanzen gekauft – und nach einer Woche sind sie eingegangen.</li>
+      <li>Du hast Geld für teure Pflanzerde ausgegeben – und nach dem dritten Gießen war die Erde hart wie ein Ziegelstein.</li>
+      <li>Du hast Tomaten gepflanzt und nur Blätter geerntet. Jede Menge Blattwerk, aber keine einzige reife Frucht.</li>
+      <li>Du hast Blattläuse an deinen Pflanzen entdeckt und wusstest nicht, ob Schmierseife, Brennnesseljauche oder Wegwerfen hilft.</li>
+      <li>Du hast zum zehnten Mal "mäßig gießen" und "in nährstoffreiche Erde pflanzen" gelesen, ohne dass dir jemand sagt: <strong>wie viele Liter</strong> und <strong>wie viele Zentimeter</strong>.</li>
+      <li>Nach drei Wochen hast du frustriert aufgegeben und das Beet ist komplett überwuchert.</li>
+    </ul>
+
+    <div class="frase">
+      Niemand verliert seinen Gemüsegarten aus Mangel an Liebe. Man verliert ihn aus Mangel an einer Methode mit exakten Zahlen.
+    </div>
+
+    <p>Das Internet ist voll von vagen Ratschlägen. Du brauchst nicht noch ein Video, das dir erklärt, dass "die Pflanze Sonne mag". Du musst wissen, dass Kopfsalat <strong>4 Stunden direkte Sonne</strong> braucht, dass ein Beet <strong>1,20 m breit</strong> sein sollte (weil das genau die doppelte Armreichweite ist), und dass Seifenlösung <strong>3 Tage</strong> haltbar ist – danach verliert sie ihre Wirkung.</p>
+  </div>
+</section>
+
+<!-- -------------------------------------------------------------- solution -->
+<section class="solucao">
+  <div class="env">
+    <h2>Was sich mit diesem Handbuch ändert</h2>
+    <p>Dies ist kein Bildband zum Träumen. Es ist ein echtes Werkstatthandbuch: jedes Maß in Zentimetern, jedes Mischungsverhältnis für Dünger, jeder Tag Wartezeit – praxiserprobt im Garten, Hochbeet, Hinterhof und auf dem Balkon.</p>
+    <ul>
+      <li><strong>Beet fertig in 30 Tagen, ganz ohne Umgraben.</strong> Die fünf Schichten mit genauer Dicke und wo du das Material kostenlos bekommst.</li>
+      <li><strong>Eigener Dünger aus Küchenabfällen.</strong> 3-Eimer-Komposter, Wurmkiste und Bokashi – inklusive Speiseresten wie Fleisch und Käse, die auf den normalen Kompost nicht dürfen.</li>
+      <li><strong>Aussaat- und Pflanzkalender nach Jahreszeiten.</strong> Was du in welchem Monat aussäen kannst, abgestimmt auf Klima und Temperatur.</li>
+      <li><strong>Schädlinge per Fotodiagnose erkennen.</strong> Schnelldiagnose in 4 Fragen plus Rezept für wirksame biologische Pflanzenschutzmittel.</li>
+      <li><strong>Funktioniert auch ohne großen Garten.</strong> Pflanzkübel, Säcke, Mörtelwannen und vertikaler Pflanzturm mit exaktem Litervolumen für jedes Gemüse.</li>
+    </ul>
+
+    <div class="pilares">
+      <div class="pilar">
+        <h3>Kostenloser Dünger</h3>
+        <p>Bokashi, Heißkompost, Wurmhumus und 14 Bio-Flüssigdünger-Rezepte. Nie wieder teuren Dünger im Sack kaufen.</p>
+      </div>
+      <div class="pilar">
+        <h3>Beete, die funktionieren</h3>
+        <p>Die No-Dig-Methode Schicht für Schicht mit exakten Maßen – auch für Terrassenplatten und Betonflächen.</p>
+      </div>
+      <div class="pilar">
+        <h3>Lebendiger Boden</h3>
+        <p>Schüttelglas-Test, Regenwurm-Zählung und pH-Wert ohne Labor. Erfahre genau, welche Erde du hast, bevor du pflanzt.</p>
+      </div>
+      <div class="pilar">
+        <h3>Ernte das ganze Jahr</h3>
+        <p>Staffelaussaat und Mischkultur: Jede Woche frisch ernten, statt alles auf einmal und danach monatelang nichts.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ---------------------------------------------------------------- look inside -->
+<section class="dentro">
+  <div class="env">
+    <h2>Blick ins Buch</h2>
+    <p>Echte Seiten aus dem Handbuch – ungeschönt und direkt aus der Praxis.</p>
+    <div class="paginas">
+      <figure>
+        <img src="img/p_canteiro.jpg?v=3" alt="Die fünf Schichten des No-Dig-Beetes im Querschnitt" loading="lazy">
+        <figcaption>Die 5 Schichten im Querschnitt</figcaption>
+      </figure>
+      <figure>
+        <img src="img/p_bokashi.jpg?v=3" alt="Aufbau und Funktionsweise des Bokashi-Fermentereimers" loading="lazy">
+        <figcaption>Der Bokashi-Fermentereimer</figcaption>
+      </figure>
+      <figure>
+        <img src="img/p_torre.jpg?v=3" alt="Vertikaler PVC-Pflanzturm mit 24 Pflanzplätzen" loading="lazy">
+        <figcaption>Vertikaler PVC-Pflanzturm</figcaption>
+      </figure>
+      <figure>
+        <img src="img/p_ficha.jpg?v=3" alt="Gemüse-Steckbrief mit Kulturanleitung und Abständen" loading="lazy">
+        <figcaption>Steckbrief für jedes Gemüse</figcaption>
+      </figure>
+      <figure>
+        <img src="img/p_praga.jpg?v=3" alt="Visueller Leitfaden zur Bestimmung von Pilzkrankheiten und Schädlingen" loading="lazy">
+        <figcaption>Schädlings- & Pilzdiagnose</figcaption>
+      </figure>
+      <figure>
+        <img src="img/p_calendario.jpg?v=3" alt="Vergleichstabelle Direktsaat im Beet vs. Anzuchtplatte" loading="lazy">
+        <figcaption>Direktsaat vs. Anzuchtplatte</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- -------------------------------------------------------------- numbers -->
+<section>
+  <div class="env">
+    <h2>Das steckt drin</h2>
+    <div class="numeros">
+      <div class="num"><b>295</b><span>Seiten</span></div>
+      <div class="num"><b>24</b><span>Gemüse-Steckbriefe</span></div>
+      <div class="num"><b>40</b><span>Diagramme</span></div>
+      <div class="num"><b>8</b><span>Wochenend-Projekte</span></div>
+    </div>
+    <p style="margin-top:26px">Dazu der Saison-Aussaatkalender, die Schnelldiagnose-Tabelle für Schädlinge, 14 Rezepte für Dünger und biologischen Pflanzenschutz sowie praktische Checklisten zum Ausdrucken für deinen Garten.</p>
+  </div>
+</section>
+
+<!-- ---------------------------------------------------------------- channel -->
+<section class="canal">
+  <div class="env">
+    <h2>9,99 € ist ein symbolischer Beitrag</h2>
+    <p>Das Buch umfasst 295 Seiten, 104 Fotos und 40 Diagramme. Der Preis deckt die monatelange Arbeit bei weitem nicht ab – und das soll er auch gar nicht.</p>
+    <p>Der Kanal Einfacher Gemüsegarten ist und bleibt für jeden kostenlos. Aber das Testen, Filmen und Schneiden jedes Videos kostet enorm viel Zeit – und Zeit ist das Einzige, was man nicht im Garten anbauen kann.</p>
+    <p><strong>Mit deinem Kauf unterstützt du den Kanal direkt.</strong> Du erhältst die erprobte Methode kompakt und strukturiert an einem Ort, und ermöglichst gleichzeitig, dass neue Videos für alle weiterhin kostenlos erscheinen können.</p>
+  </div>
+</section>
+
+<!-- ------------------------------------------------------------ closing -->
+<section class="fechar" id="comprar-topo">
+  <div class="env">
+    <h2>Starte mit dem richtigen Beet</h2>
+    <p>Wenn du schon einmal mehr als 9,99 € für Pflanzen ausgegeben hast, die eingegangen sind, hat sich dieses Handbuch schon mit der ersten erfolgreichen Ernte bezahlt gemacht. Und ganz nebenbei hilfst du dem Kanal, weiter kostenlose Videos zu produzieren.</p>
+
+    <div class="preco" style="color:var(--tinta)">
+      <span class="de" style="color:var(--tinta-fraca)">27 €</span>
+      <span class="por" style="color:var(--verde-escuro)">9,99 €</span>
+      <span class="vez" style="color:var(--tinta-fraca)">sichere Einmalzahlung per Karte, PayPal oder Klarna</span>
+    </div>
+
+    <a onclick="return false;" href="https://pay.hotmart.com/V107356357I?checkoutMode=2" class="btn hotmart-fb hotmart__button-checkout">
+      ICH WILL DAS KOMPLETTE HANDBUCH
+      <small>sofortiger Zugriff, direkt auf deinem Smartphone</small>
+    </a>
+
+    <div class="garantia">
+      <h3>Wie du das Handbuch erhältst</h3>
+      <p>Direkt nach erfolgreicher Zahlung erhältst du die PDF-Datei per E-Mail. Du kannst sie auf deinem Smartphone, Tablet oder Computer öffnen und für immer behalten – ohne Abo, ohne Folgekosten und komplett ohne Internetverbindung lesbar.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="env">
+    <img src="img/logo.png?v=3" alt="" style="width:64px;height:64px;border-radius:50%;margin:0 auto 14px;opacity:.9">
+    <p>Kanal Einfacher Gemüsegarten · Ausgabe 2026</p>
+    <p style="margin-top:8px"><a href="#">Kontakt</a> · <a href="#">Kaufbedingungen</a> · <a href="#">Datenschutz</a></p>
+  </div>
+</footer>
+
+<!-- ------------------------------------------------------- mobile fixed bar -->
+<div class="barra">
+  <div class="linha">Lebendiger Gemüsegarten · <b>9,99 €</b></div>
+  <a onclick="return false;" href="https://pay.hotmart.com/V107356357I?checkoutMode=2" class="btn hotmart-fb hotmart__button-checkout">HANDBUCH SICHERN</a>
+</div>
+
+</body>
+</html>
