@@ -1,397 +1,209 @@
-<!doctype html>
-<html lang="de">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Lebendiger Gemüsegarten — Das komplette Praxishandbuch für den ertragreichen Garten zu Hause</title>
-<meta name="description" content="295 Seiten mit der exakten Methode für No-Dig-Beete, eigenen Dünger aus Küchenabfällen und Ernte das ganze Jahr. 9,99 €, symbolischer Beitrag zur Unterstützung des Kanals Einfacher Gemüsegarten.">
-<meta property="og:title" content="Lebendiger Gemüsegarten — Das komplette Praxishandbuch">
-<meta property="og:description" content="No-Dig-Beet ohne Umgraben, kostenloser Dünger aus Küchenabfällen und Aussaatkalender. 295 Seiten für 9,99 € — symbolischer Beitrag zur Unterstützung des Kanals.">
-<meta property="og:image" content="img/capa.jpg?v=5">
-<meta property="og:type" content="product">
-<link rel="icon" type="image/png" href="favicon.png?v=5">
-<link rel="apple-touch-icon" href="img/apple-touch-icon.png?v=5">
-<meta name="theme-color" content="#072e22">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lebendiger Garten — Das umfassende Praxishandbuch für deinen Bio-Gemüsegarten zu Hause</title>
+<meta name="description" content="347 Seiten Praxiswissen für deinen Bio-Gemüsegarten: No-Dig-Beet ohne Umgraben, eigener Bio-Dünger, 24 Pflanzen-Steckbriefe + 3 Gratis-Bonus-Bücher.">
+<meta property="og:title" content="Lebendiger Garten — Das umfassende Praxishandbuch">
+<meta property="og:description" content="347 Seiten Praxiswissen für deinen Bio-Gemüsegarten + 3 Gratis-Bonus-Bücher.">
+<meta property="og:image" content="img/og.jpg"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
-/* ==========================================================================
-   VERKAUFSSEITE — LEBENDIGER GEMÜSEGARTEN
-   Mobile-first: Schrift 18px, Buttons 62px Mindesthöhe.
-   ========================================================================== */
-:root{
-  --verde-escuro:#072e22; --verde:#0d4a36; --verde-claro:#1c6b4f;
-  --ouro:#c59b27; --ouro-claro:#e5c365;
-  --creme:#faf8f5; --creme-cartao:#f4eee1;
-  --tinta:#1f2923; --tinta-fraca:#4a5750;
-  --alerta:#a33b1f;
-  --serif:"Cinzel",Georgia,serif;
-  --sans:"Montserrat","Helvetica Neue",Arial,sans-serif;
-}
+:root{--bege:#efe3c6;--bege2:#e5d6b0;--bege3:#f6eed9;--tinta:#2b2118;--red:#a12a1a;--red2:#7f1f12;--amarelo:#f7c845;
+--verde:#2f4330;--sombra:0 10px 24px rgba(40,25,10,.18)}
 *{box-sizing:border-box;margin:0;padding:0}
-html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
-body{
-  font-family:var(--sans); font-size:18px; line-height:1.62;
-  color:var(--tinta); background:var(--creme);
-  -webkit-font-smoothing:antialiased;
-  padding-bottom:96px; /* Platz für die fixierte mobile Leiste */
-}
-img{max-width:100%;height:auto;display:block}
-.env{width:100%;max-width:660px;margin:0 auto;padding:0 20px}
-
-h1,h2,h3{font-family:var(--serif);line-height:1.15;letter-spacing:.2px}
-h1{font-size:34px;font-weight:800}
-h2{font-size:27px;font-weight:700;color:var(--verde-escuro);margin-bottom:18px}
-h3{font-size:20px;font-weight:700;color:var(--verde-escuro)}
-p{margin-bottom:18px}
-strong{font-weight:700;color:var(--verde-escuro)}
-section{padding:52px 0}
-
-/* ------------------------------------------------------------------ hero */
-.hero{
-  background:linear-gradient(175deg,#0a3a2b 0%,var(--verde-escuro) 60%,#04211a 100%);
-  color:#fff; text-align:center; padding:38px 0 46px;
-}
-.logo{
-  width:104px;height:104px;margin:0 auto 18px;border-radius:50%;
-  border:3px solid var(--ouro-claro);
-  box-shadow:0 8px 24px rgba(0,0,0,.4);
-}
-.selo{
-  display:inline-block;border:1.5px solid var(--ouro-claro);color:var(--ouro-claro);
-  font-family:var(--serif);font-size:12px;letter-spacing:2.4px;text-transform:uppercase;
-  padding:9px 20px;border-radius:40px;margin-bottom:24px;font-weight:700;
-}
-.hero h1{color:var(--ouro-claro);margin-bottom:16px}
-.hero .sub{font-size:20px;color:#e6efe9;margin-bottom:28px;font-weight:400}
-.hero .capa{
-  width:78%;max-width:290px;margin:0 auto 30px;border-radius:6px;
-  box-shadow:0 22px 50px rgba(0,0,0,.55);
-}
-.hero .marca{
-  font-family:var(--serif);font-size:13px;letter-spacing:2.6px;
-  text-transform:uppercase;color:var(--ouro);margin-top:26px;
-}
-
-/* ----------------------------------------------------------------- button */
-.btn{
-  display:flex !important;flex-direction:column !important;align-items:center !important;justify-content:center !important;
-  width:100% !important;min-height:66px !important;padding:16px 22px !important;
-  background:linear-gradient(180deg,#e0b93f 0%,var(--ouro) 100%) !important;
-  color:var(--verde-escuro) !important;
-  font-family:var(--sans) !important;font-size:20px !important;font-weight:800 !important;line-height:1.25 !important;
-  text-align:center !important;text-decoration:none !important;
-  border:0 !important;border-radius:10px !important;
-  box-shadow:0 8px 20px rgba(0,0,0,.28) !important;
-  transition:transform .12s ease, box-shadow .12s ease !important;
-  cursor:pointer;
-}
-.btn:active{transform:translateY(2px) !important;box-shadow:0 4px 12px rgba(0,0,0,.3) !important}
-.btn small{display:block !important;font-size:14px !important;font-weight:600 !important;opacity:.82 !important;margin-top:3px !important}
-.sob-btn{font-size:15px;color:#c9d8cf;margin-top:14px;line-height:1.5}
-.preco{margin:6px 0 22px}
-.preco .de{font-size:17px;color:#a9bdb2;text-decoration:line-through}
-.preco .por{font-family:var(--serif);font-size:44px;font-weight:800;color:#fff;display:block;line-height:1.1}
-.preco .vez{font-size:15px;color:#c9d8cf}
-
-/* -------------------------------------------------------------------- problem */
-.dor{background:var(--creme-cartao)}
-.dor ul{list-style:none;margin:0 0 24px}
-.dor li{
-  position:relative;padding-left:38px;margin-bottom:18px;font-size:18px;
-}
-.dor li::before{
-  content:"✕";position:absolute;left:0;top:-1px;
-  width:26px;height:26px;border-radius:50%;
-  background:var(--alerta);color:#fff;font-size:14px;font-weight:700;
-  display:flex;align-items:center;justify-content:center;
-}
-.frase{
-  border-left:5px solid var(--ouro);background:#fff;
-  padding:20px 22px;margin:28px 0;font-size:19px;line-height:1.55;
-  border-radius:0 8px 8px 0;
-}
-
-/* --------------------------------------------------------------- solution */
-.solucao ul{list-style:none}
-.solucao li{
-  position:relative;padding-left:38px;margin-bottom:18px;font-size:18px;
-}
-.solucao li::before{
-  content:"✓";position:absolute;left:0;top:-1px;
-  width:26px;height:26px;border-radius:50%;
-  background:var(--verde-claro);color:#fff;font-size:15px;font-weight:700;
-  display:flex;align-items:center;justify-content:center;
-}
-
-/* ------------------------------------------------------------- pillars */
-.pilares{display:grid;gap:16px;margin-top:26px}
-.pilar{
-  background:#fff;border:1px solid rgba(197,155,39,.35);
-  border-left:6px solid var(--ouro);border-radius:10px;padding:22px;
-}
-.pilar h3{margin-bottom:8px;font-size:19px}
-.pilar p{margin:0;font-size:17px;color:var(--tinta-fraca)}
-
-/* ----------------------------------------------------------------- look inside */
-.dentro{background:var(--verde-escuro);color:#fff}
-.dentro h2{color:var(--ouro-claro)}
-.dentro p{color:#d4e2da}
-.paginas{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:26px}
-.paginas figure{margin:0}
-.paginas img{border-radius:6px;box-shadow:0 10px 26px rgba(0,0,0,.45)}
-.paginas figcaption{
-  font-size:13px;color:var(--ouro-claro);margin-top:8px;text-align:center;
-  line-height:1.4;
-}
-
-/* ---------------------------------------------------------------- numbers */
-.numeros{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:26px}
-.num{background:var(--creme-cartao);border-radius:10px;padding:20px 14px;text-align:center}
-.num b{display:block;font-family:var(--serif);font-size:34px;color:var(--verde);line-height:1}
-.num span{font-size:15px;color:var(--tinta-fraca);display:block;margin-top:6px}
-
-/* ----------------------------------------------------------------- channel */
-.canal{background:var(--verde);color:#fff;text-align:center}
-.canal h2{color:var(--ouro-claro)}
-.canal p{color:#dbe8e1;font-size:18px}
-
-/* -------------------------------------------------------------- closing */
-.fechar{text-align:center;background:var(--creme-cartao)}
-.fechar .btn{margin-top:24px}
-.garantia{
-  background:#fff;border:2px dashed var(--ouro);border-radius:12px;
-  padding:24px;margin-top:30px;text-align:left;
-}
-.garantia h3{margin-bottom:10px}
-.garantia p{margin:0;font-size:17px;color:var(--tinta-fraca)}
-
-/* ------------------------------------------------------- mobile fixed bar */
-.barra{
-  position:fixed;left:0;right:0;bottom:0;z-index:50;
-  background:rgba(7,46,34,.97);backdrop-filter:blur(8px);
-  padding:12px 16px calc(12px + env(safe-area-inset-bottom));
-  box-shadow:0 -6px 22px rgba(0,0,0,.35);
-}
-.barra .btn{min-height:58px !important;font-size:19px !important}
-.barra .linha{
-  display:flex;align-items:center;justify-content:center;gap:10px;
-  color:#c9d8cf;font-size:14px;margin-bottom:8px;
-}
-.barra .linha b{color:#fff;font-size:18px;font-family:var(--serif)}
-
-footer{background:var(--verde-escuro);color:#8fa79b;text-align:center;
-  font-size:14px;padding:34px 0}
-footer a{color:var(--ouro-claro)}
-
-/* ---------------------------------------------------------------- desktop */
-@media (min-width:760px){
-  body{font-size:19px;padding-bottom:0}
-  h1{font-size:48px} h2{font-size:34px}
-  .env{max-width:760px}
-  section{padding:76px 0}
-  .hero{padding:60px 0 70px}
-  .hero .capa{max-width:340px}
-  .logo{width:124px;height:124px}
-  .btn{width:auto !important;min-width:420px !important;margin:0 auto !important;font-size:22px !important;min-height:72px !important}
-  .preco .por{font-size:54px}
-  .pilares{grid-template-columns:1fr 1fr}
-  .paginas{grid-template-columns:repeat(3,1fr)}
-  .numeros{grid-template-columns:repeat(4,1fr)}
-  .barra{display:none}
+html{scroll-behavior:smooth}
+body{background:var(--bege);color:var(--tinta);font-family:Georgia,'Libre Caslon Text',serif;font-size:19px;line-height:1.55;font-variant-numeric:lining-nums}
+img{max-width:100%;display:block}
+.w{max-width:1040px;margin:0 auto;padding:0 20px}
+.os{font-family:'Oswald',Impact,sans-serif;text-transform:none;letter-spacing:.01em}
+.red{color:var(--red)}
+h2{font-family:'Oswald',Impact,sans-serif;font-weight:600;font-size:clamp(30px,4.3vw,44px);line-height:1.15;text-align:center;color:#26282b}
+h2 i{color:var(--red);font-style:italic}
+.estrelas{text-align:center;color:var(--red);font-size:28px;letter-spacing:.3em;line-height:1;margin-bottom:6px}
+section{padding:54px 0}
+.banda2{background:var(--bege2)}
+/* faixa vermelha */
+.faixa{background:var(--red);color:#fff;text-align:center;padding:16px 16px;font-family:'Oswald',Impact,sans-serif;font-weight:600;
+  font-size:clamp(22px,3.2vw,32px);line-height:1.2}
+.faixa b{color:var(--amarelo);font-weight:600}
+/* hero */
+.hero{background:var(--bege3);padding:30px 0 26px}
+.hero .quadro{max-width:760px;margin:0 auto;border:3px solid #3a2a1c;outline:2px solid #fff;outline-offset:-8px;border-radius:10px;overflow:hidden;box-shadow:var(--sombra)}
+.hero h1{font-family:'Oswald',Impact,sans-serif;font-weight:600;font-size:clamp(28px,4vw,42px);line-height:1.15;text-align:center;margin:0 auto 18px;max-width:900px}
+.hero h1 i{color:var(--red)}
+.selos{max-width:920px;margin:22px auto 0;background:var(--bege);border:1px solid #d2c09a;box-shadow:0 4px 14px rgba(40,25,10,.1);border-radius:6px}
+.selos .l1{display:grid;grid-template-columns:repeat(3,1fr)}
+.selos .l2{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid #d2c09a}
+.selo{display:flex;align-items:center;gap:12px;padding:12px 14px;font-size:15px;line-height:1.3;font-weight:700}
+.selo+.selo{border-left:1px solid #d2c09a}
+.selo img{width:56px;height:56px;object-fit:contain;flex:none}
+.selo .ic{flex:none;width:52px;height:52px;border-radius:50%;background:var(--red);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  font-family:'Oswald',sans-serif;font-size:13px;line-height:1.05;text-align:center;border:3px double #fff;outline:2px solid var(--red)}
+.selo s{color:#6d6050}
+.selo .r{color:var(--red)}
+.livro-intro{display:grid;grid-template-columns:.8fr 1.2fr;gap:30px;align-items:center;max-width:900px;margin:28px auto 0}
+.livro-intro h3{font-family:'Oswald',sans-serif;font-weight:600;font-size:28px;margin-bottom:8px}
+.cta-wrap{text-align:center;margin-top:26px}
+.btn{display:inline-block;background:linear-gradient(#ffd75e,#f0ad1d);color:#2b1a05;text-decoration:none;font-family:'Oswald',Impact,sans-serif;font-weight:700;
+  font-size:clamp(22px,2.8vw,30px);letter-spacing:.02em;padding:16px 42px;border-radius:8px;border:2px solid #a8740b;box-shadow:0 5px 0 #a8740b,0 10px 22px rgba(0,0,0,.2);text-transform:uppercase}
+.btn:hover{filter:brightness(1.04)}
+.btn small{display:block;font-family:Georgia,serif;text-transform:none;font-weight:400;font-size:14px;letter-spacing:0}
+.seg{font-size:14px;color:#5a4a38;margin-top:12px}
+/* zigue-zague */
+.zz{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center;padding:34px 0}
+.zz:nth-child(even) .zi{order:2}
+.zz .zi img{border-radius:4px;box-shadow:var(--sombra);width:100%}
+.zz p{font-size:19px}
+.linha{padding:0}
+.linha>.w{padding-top:30px;padding-bottom:30px}
+.linha:nth-child(odd){background:var(--bege2)}
+.sk{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center}
+.linha:nth-child(even) .sk .zi{order:2}
+.sk .zi img{border-radius:4px;box-shadow:var(--sombra);width:100%;aspect-ratio:4/3;object-fit:cover}
+.sk h3{font-family:'Oswald',sans-serif;font-weight:600;font-size:27px;line-height:1.2;color:#26282b;margin-bottom:10px}
+.sk p{font-size:18px}
+.sk .no{display:block;text-align:right;font-family:'Oswald',sans-serif;font-style:italic;color:var(--red);font-size:15px;margin-top:10px}
+/* bonus */
+.bn{display:grid;grid-template-columns:.9fr 1.1fr;gap:34px;align-items:center;padding:34px 0;border-bottom:1px dashed #c6b38b}
+.bn:last-child{border-bottom:none}
+.bn h3{font-family:'Oswald',sans-serif;font-weight:600;font-size:32px;line-height:1.15;margin:4px 0 10px}
+.bn .tag{font-family:'Oswald',sans-serif;color:var(--red);font-size:22px;font-weight:600}
+.bn ul{margin:10px 0 0 22px}
+.bn .gratis{display:inline-block;margin-top:12px;background:var(--red);color:#fff;font-family:'Oswald',sans-serif;padding:4px 14px;border-radius:4px}
+.bn .fotos{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:end}
+/* oferta */
+.oferta{background:var(--bege3);border:3px solid var(--red);border-radius:10px;max-width:760px;margin:0 auto;padding:30px 26px;text-align:center;box-shadow:var(--sombra)}
+.oferta table{width:100%;border-collapse:collapse;margin:16px 0;font-size:17px;text-align:left}
+.oferta td{padding:9px 6px;border-bottom:1px dotted #b9a27c}
+.oferta td:last-child{text-align:right;white-space:nowrap;color:#6d6050}
+.oferta tr.tot td{font-weight:700;color:var(--tinta);border-bottom:2px solid var(--tinta)}
+.preco{font-family:'Oswald',sans-serif;font-weight:700;color:var(--red);font-size:64px;line-height:1;margin:14px 0 4px}
+.preco s{color:#7b6d5b;font-size:30px;font-weight:400;margin-right:10px}
+.economia{display:inline-block;background:var(--amarelo);font-family:'Oswald',sans-serif;font-weight:600;padding:4px 14px;border-radius:4px;margin-bottom:12px}
+/* garantia */
+.gar{display:flex;gap:30px;align-items:center;max-width:900px;margin:0 auto}
+.gar .badge{flex:none;width:220px;height:220px;border-radius:50%;background:radial-gradient(circle,#3b2a1c 0,#2a1d12 70%);color:#f3e2b6;
+  border:6px solid #c9a55a;outline:3px dashed #c9a55a;outline-offset:-18px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-family:'Oswald',sans-serif;line-height:1}
+.gar .badge b{font-size:78px;color:#fff}
+.gar .badge span{font-size:18px;letter-spacing:.12em}
+.gar h2{text-align:left}
+/* porques */
+.pq{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center;padding:28px 0}
+.pq:nth-child(even) .zi{order:2}
+.pq h3{font-family:'Oswald',sans-serif;font-weight:600;font-size:28px;line-height:1.2;margin-bottom:10px}
+.pq img{border-radius:4px;box-shadow:var(--sombra)}
+/* faq */
+.faq details{border-bottom:1px solid #c6b38b;padding:16px 0}
+.faq summary{cursor:pointer;font-family:'Oswald',sans-serif;font-weight:600;font-size:23px;list-style:none}
+.faq summary::after{content:"+";float:right;color:var(--red)}
+.faq details[open] summary::after{content:"\2212"}
+.faq p{margin-top:8px;font-size:18px}
+footer{background:#2a211a;color:#c9bca3;font-size:14px;line-height:1.6;padding:30px 0 100px}
+footer p{margin-bottom:10px}
+.barra{position:fixed;left:0;right:0;bottom:0;z-index:30;background:rgba(43,33,24,.96);padding:10px 14px;display:none}
+.barra .btn{display:block;text-align:center;font-size:20px;padding:12px}
+@media (max-width:820px){
+  body{font-size:18px}
+  .zz,.sk,.bn,.pq,.livro-intro{grid-template-columns:1fr;gap:16px}
+  .zz:nth-child(even) .zi,.linha:nth-child(even) .sk .zi,.pq:nth-child(even) .zi{order:0}
+  .selos .l1{grid-template-columns:1fr}.selos .l2{grid-template-columns:1fr}
+  .selo+.selo{border-left:none;border-top:1px solid #d2c09a}
+  .gar{flex-direction:column;text-align:center}.gar h2{text-align:center}
+  .barra{display:block}
+  .btn{padding:14px 22px}
 }
 </style>
-
-<!-- Hotmart Checkout Widget -->
-<script type="text/javascript">
-	function importHotmart(){ 
- 		var imported = document.createElement('script'); 
- 		imported.src = 'https://static.hotmart.com/checkout/widget.min.js'; 
- 		document.head.appendChild(imported); 
-		var link = document.createElement('link'); 
-		link.rel = 'stylesheet'; 
-		link.type = 'text/css'; 
-		link.href = 'https://static.hotmart.com/css/hotmart-fb.min.css'; 
-		document.head.appendChild(link);	} 
- 	importHotmart(); 
+<script>
+/* ======== CONFIGURAÇÃO RÁPIDA (Link Cakto, Preço, Garantia, E-mail) ======== */
+window.SALES_CONFIG = {
+  "checkoutUrl": "#oferta",
+  "price": "$19.90",
+  "oldPrice": "$89",
+  "discount": "78%",
+  "guaranteeDays": "7",
+  "brand": "Lebendiger Garten — Praxishandbuch",
+  "supportEmail": ""
+};
 </script>
-</head>
-<body>
+</head><body>
+<div class="faixa">Einführungs-Aktion: <b>78% Rabatt</b> heute!<br>Sichere dir deine <b>3 Gratis-Bonus-Bücher</b> zu deinem Exemplar!</div>
+<header class="hero"><div class="w">
+ <h1>Das Praxiswissen für einen vollen <i>Bio-Gemüsegarten zu Hause</i> — Schritt für Schritt illustriert mit exakten Zahlen</h1>
+ <div class="quadro"><img src="img/life_homem_lendo.jpg" alt="Leser mit dem gedruckten Praxishandbuch Lebendiger Garten"></div>
+ <div class="selos"><div class="l1">
+ <div class="selo"><img src="img/life_hero_mesa.jpg" alt="" style="object-fit:cover;border-radius:4px"><span><span class="r">Digitale Ausgabe,</span> einfach zu Hause drucken &amp; spiralbinden</span></div>
+ <div class="selo"><img src="img/amostra_3.jpg" alt="" style="object-fit:cover;border-radius:4px"><span>347 Farbseiten, Schritt-für-Schritt-Diagramme &amp; <span class="r">exakte Maße</span></span></div>
+ <div class="selo"><div class="ic"><span class="js-days">7</span><br>TAGE</div><span><span class="r"><span class="js-days">7</span>-Tage</span> Geld-zurück-Garantie</span></div>
+ </div><div class="l2">
+ <div class="selo"><img src="img/mockup_bundle.webp" alt=""><span><s>$89</s> Nur <span class="r js-price">$19.90</span><br>+ 3 wertvolle <span class="r">Gratis-Bücher</span></span></div>
+ <div class="selo"><div class="ic">PDF</div><span>Sofort-Download<br><span class="r">Auf jedem Gerät lesbar</span></span></div>
+ </div></div>
+ <div class="livro-intro"><img src="img/mockup_livro.webp" alt="Lebendiger Garten Praxishandbuch">
+  <div><h3>Lebendiger Garten — Das umfassende Praxishandbuch</h3><p>Niemand verliert seinen Gemüsegarten aus Mangel an Liebe – man verliert ihn aus Mangel an einer <b>Methode mit exakten Zahlen</b>. Auf <b>347 durchgehend farbigen Seiten</b> lernst du vom No-Dig-Beet ohne Umgraben über eigenen Bio-Dünger aus Küchenabfällen bis hin zu 24 Pflanzen-Steckbriefen und 8 Wochenend-Bauprojekten alles, was deinen Garten, dein Hochbeet oder deinen Balkon aufblühen lässt.</p></div></div>
+ <div class="cta-wrap"><a class="btn js-checkout" href="#oferta">Jetzt Handbuch + 3 Boni sichern<small>Sofortiger PDF-Download • Heute nur <span class="js-price">$19.90</span></small></a><div class="seg">🔒 Sichere Bezahlung • <span class="js-days">7</span> Tage Geld-zurück-Garantie</div></div>
+</div></header>
 
-<header class="hero">
-  <div class="env">
-    <img class="logo" src="img/logo.png?v=5" alt="Logo des Kanals Einfacher Gemüsegarten">
-    <div class="selo">Kanal Einfacher Gemüsegarten</div>
-    <img class="capa" src="img/capa.jpg?v=5" alt="Buchcover Lebendiger Gemüsegarten">
-    <h1>Dein Gemüsegarten ist nicht am fehlenden grünen Daumen gescheitert</h1>
-    <p class="sub">Er ist an fehlenden exakten Maßen gescheitert. Dieses Handbuch liefert dir die 295 Seiten mit den Maßen, die bisher gefehlt haben.</p>
+<section class="banda2"><div class="w">
+ <div class="estrelas">* * *</div><h2>So ein Gartenbuch gibt es <i>heute kaum noch:</i></h2>
+ <div class="zz"><div class="zi"><img loading="lazy" src="img/life_homem_lendo.jpg" alt=""></div><div><p><b class='red'>Lebendiger Garten</b> ist ein <b>durchdachtes, durchgehend farbiges Praxishandbuch</b> mit 40 klaren technischen Diagrammen und 104 Fotografien, damit du jeden Handgriff auf einen Blick verstehst – ganz ohne trockenes Fachchinesisch oder endloses Blättern.</p></div></div><div class="zz"><div class="zi"><img loading="lazy" src="img/life_dedo_pagina.jpg" alt=""></div><div><p>Du musst das Buch nicht von Seite 1 bis 347 am Stück durchlesen. Schlage beim Morgenkaffee <b>ein einziges Kapitel oder ein Wochenend-Projekt</b> auf und setze es direkt im Garten oder auf dem Balkon um. <i class='red'>Überall findest du exakte Zentimeter-, Liter- und Zeitangaben statt vager Floskeln!</i></p></div></div><div class="zz"><div class="zi"><img loading="lazy" src="img/life_presente.jpg" alt=""></div><div><p>Es ist auch ein <b>wunderbares Geschenk für Eltern, Großeltern, Kinder und Gartenfreunde.</b> Drucke es zu Hause oder im Copyshop aus, lass es mit einer Spiralbindung versehen und verschenke ein Handbuch, das über Jahre hinweg für volle Erntekörbe sorgt.</p></div></div><div class="zz"><div class="zi"><img loading="lazy" src="img/amostra_sumario.jpg" alt=""></div><div><p>Das Buch ist wie ein Werkzeugkasten aufgebaut. Über das <b>übersichtliche Inhaltsverzeichnis mit allen 13 Modulen und 6 Praxis-Anhängen</b> findest du in Sekunden genau die Antwort, die du gerade am Beet brauchst.</p></div></div><div class="zz"><div class="zi"><img loading="lazy" src="img/amostra_3.jpg" alt=""></div><div><p>Bei jedem Projekt siehst du <b>alle Schichten, Maße und Materialien klar gezeichnet</b>, <b>nummerierte Schritte</b> und auffällige <b>Praxis- &amp; Warnboxen</b>, die dir den häufigsten Anfängerfehler zeigen, bevor er dir passiert.</p></div></div><div class="zz"><div class="zi"><img loading="lazy" src="img/life_cel_descarga.jpg" alt=""></div><div><p><b>Nimm die Anleitung auf dem Smartphone direkt mit ans Beet.</b> Stelle dein Handy ans Hochbeet oder auf den Pflanztisch und arbeite mit beiden Händen frei – alle Grafiken und Tabellen sind groß und kontrastreich lesbar.</p></div></div><div class="zz"><div class="zi"><img loading="lazy" src="img/life_kindle.jpg" alt=""></div><div><p>Da es eine <b>digitale Ausgabe (PDF)</b> ist, kannst du in 2 Minuten loslegen. Lies bequem auf deinem <b>Tablet, E-Reader, Smartphone oder PC</b> – und drucke dir genau die Steckbriefe, Rezepte und Kalenderseiten aus, die du im Gartenhaus griffbereit haben möchtest.</p></div></div>
+</div></section>
 
-    <div class="preco">
-      <span class="de">27 €</span>
-      <span class="por">9,99 €</span>
-      <span class="vez">symbolischer Beitrag · sichere Zahlung per Karte, PayPal oder Klarna</span>
-    </div>
+<section style="padding-bottom:20px"><div class="w"><div class="estrelas">* * *</div><h2>Ein Blick in das Handbuch – Was du <i>Schritt für Schritt lernst:</i></h2></div></section>
+<div class="lista"><section class="linha"><div class="w"><div class="sk"><div class="zi"><img loading="lazy" src="img/IA-04.jpg" alt="Das 5-Schichten-No-Dig-Beet: Fruchtbare Erde in 30 Tagen ohne einen einzigen Spatenstich"></div><div><h3>Das 5-Schichten-No-Dig-Beet: Fruchtbare Erde in 30 Tagen ohne einen einzigen Spatenstich</h3><p>Warum das Umgraben mit dem Spaten Millionen Regenwürmer und Pilzgeflechte zerstört – und wie du mit unbedruckter Wellpappe, Grünschnitt, Laub und Kompost direkt auf dem Rasen ein hochproduktives Gemüsebeet aufbaust.</p><span class="no">Praxis-Methode Nr. 1 • Modul 03 · Seite 46</span></div></div></div></section><section class="linha"><div class="w"><div class="sk"><div class="zi"><img loading="lazy" src="img/life_cozinha_impresso.jpg" alt="Brennnesseljauche, Ackerschachtelhalm &amp; Kaliseife: 14 Bio-Rezepte mit exakten Gramm- und Literangaben"></div><div><h3>Brennnesseljauche, Ackerschachtelhalm &amp; Kaliseife: 14 Bio-Rezepte mit exakten Gramm- und Literangaben</h3><p>Schluss mit teuren Spezialdüngern aus dem Gartencenter! Hier lernst du Schritt für Schritt, wie du aus Wildkräutern und Küchenvorräten kraftvolle Flüssigdünger und schonende Pflanzenstärkungsmittel mit exakter Dosierung und Wartezeit herstellst.</p><span class="no">Praxis-Methode Nr. 2 • Anhang D · Seite 325</span></div></div></div></section><section class="linha"><div class="w"><div class="sk"><div class="zi"><img loading="lazy" src="img/IA-70.jpg" alt="Der 15-Minuten-Schraubglas-Bodentest vor dem ersten Spatenstich"></div><div><h3>Der 15-Minuten-Schraubglas-Bodentest vor dem ersten Spatenstich</h3><p>Ein altes Marmeladenglas, etwas Gartenboden und Leitungswasser verraten dir nach dem Absetzen millimetergenau den Anteil von Sand, Schluff und Ton in deiner Erde – und wie viele Liter Kompost du pro Quadratmeter wirklich brauchst.</p><span class="no">Praxis-Methode Nr. 3 • Modul 02 · Seite 34</span></div></div></div></section><section class="linha"><div class="w"><div class="sk"><div class="zi"><img loading="lazy" src="img/IA-86.jpg" alt="Die 3-2-1-Substratformel für Pflanzkübel, Balkonkästen und Hochbeete"></div><div><h3>Die 3-2-1-Substratformel für Pflanzkübel, Balkonkästen und Hochbeete</h3><p>Gekaufte Pflanzerde aus dem Baumarkt sackt im Topf oft schon nach dem dritten Gießen zusammen und wird hart wie ein Ziegelstein. Mit der 3-2-1-Mischung bleibt das Substrat über Monate locker, luftig und speichert Wasser wie ein Schwamm.</p><span class="no">Praxis-Methode Nr. 4 • Modul 04 · Seite 68</span></div></div></div></section><section class="linha"><div class="w"><div class="sk"><div class="zi"><img loading="lazy" src="img/life_nos_bancada.jpg" alt="Die geruchlose 3-Eimer-Wurmkiste für Balkon, Keller oder Hauswirtschaftsraum"></div><div><h3>Die geruchlose 3-Eimer-Wurmkiste für Balkon, Keller oder Hauswirtschaftsraum</h3><p>Auf nur 30 × 30 cm Standfläche verwandeln Kompostwürmer deine täglichen Gemüsereste und Kaffeesatz in schwarzes Gold (Wurmhumus) und flüssigen Wurmtee – komplett geruchlos und in einer Stunde für unter 15 Euro selbst gebaut.</p><span class="no">Praxis-Methode Nr. 5 • Modul 13 · Seite 218</span></div></div></div></section><section class="linha"><div class="w"><div class="sk"><div class="zi"><img loading="lazy" src="img/IA-68.jpg" alt="Küchen-Bokashi: Alle Küchenreste fermentieren – sogar im Winter in der Wohnung"></div><div><h3>Küchen-Bokashi: Alle Küchenreste fermentieren – sogar im Winter in der Wohnung</h3><p>Durch Milchsäure-Fermentation im luftdichten Eimer verarbeitest du Küchenabfälle ohne Fäulnisgeruch und ohne Fruchtfliegen. Nach zwei Wochen erntest du hochkonzentrierten Bokashi-Sickersaft (1:100 verdünnt) als Turbo-Dünger.</p><span class="no">Praxis-Methode Nr. 6 • Modul 06 · Seite 96</span></div></div></div></section><section class="linha"><div class="w"><div class="sk"><div class="zi"><img loading="lazy" src="img/life_tick_varanda.jpg" alt="Visuelle Blatt-Diagnose: In 30 Sekunden erkennen, was deiner Pflanze wirklich fehlt"></div><div><h3>Visuelle Blatt-Diagnose: In 30 Sekunden erkennen, was deiner Pflanze wirklich fehlt</h3><p>Gelbe Blätter an den unteren Trieben? Dunkle Zielscheiben-Ringe auf der Tomate oder weißer Belag auf der Zucchini? Vergleiche das Blatt direkt am Beet mit den Farbfotos im Buch und greife sofort zur richtigen biologischen Maßnahme.</p><span class="no">Praxis-Methode Nr. 7 • Anhang C · Seite 309</span></div></div></div></section><section class="linha"><div class="w"><div class="sk"><div class="zi"><img loading="lazy" src="img/IA-84.jpg" alt="Die 1,20-Meter-Regel &amp; die 5 Grundentscheidungen vor dem Start"></div><div><h3>Die 1,20-Meter-Regel &amp; die 5 Grundentscheidungen vor dem Start</h3><p>Ein Beet, das breiter als 1,20 Meter ist, zwingt dich beim Jäten und Ernten zum Drauftreten – und verdichtet die Erde sofort wieder. Fünf einfache Messungen zu Sonnenstunden, Wind, Wasserweg und Beetbreite ersparen dir 90 % aller Anfängerfehler.</p><span class="no">Praxis-Methode Nr. 8 • Modul 01 · Seite 15</span></div></div></div></section><section class="linha"><div class="w"><div class="sk"><div class="zi"><img loading="lazy" src="img/IA-89.jpg" alt="Gute Nachbarn, schlechte Nachbarn: Das Mischkultur-System auf einer Ebene"></div><div><h3>Gute Nachbarn, schlechte Nachbarn: Das Mischkultur-System auf einer Ebene</h3><p>Warum Möhren und Zwiebeln sich gegenseitig die Schädlinge vom Leib halten, während Tomaten und Erbsen nebeneinander kümmern. Mit klaren Pflanzplänen nutzt du Tief-, Mittel- und Flachwurzler im selben Beet ohne Platzverlust.</p><span class="no">Praxis-Methode Nr. 9 • Modul 09 · Seite 138</span></div></div></div></section><section class="linha"><div class="w"><div class="sk"><div class="zi"><img loading="lazy" src="img/IA-90.jpg" alt="Tiefengießen statt Blätterduschen: Warum tägliches kurzes Gießen deine Pflanzen schwächt"></div><div><h3>Tiefengießen statt Blätterduschen: Warum tägliches kurzes Gießen deine Pflanzen schwächt</h3><p>Wer jeden Abend nur die obersten zwei Zentimeter Erde benetzt, erzieht flache, durstige Wurzeln und lädt Kraut- und Braunfäule ein. Lerne den Finger-Test und wie eine 5 cm dicke Mulchschicht bis zu 60 % Gießwasser spart.</p><span class="no">Praxis-Methode Nr. 10 • Modul 10 · Seite 156</span></div></div></div></section><section class="linha"><div class="w"><div class="sk"><div class="zi"><img loading="lazy" src="img/IA-51.jpg" alt="Spanische Wegschnecke, Blattläuse &amp; Weiße Fliege biologisch in die Schranken weisen"></div><div><h3>Spanische Wegschnecke, Blattläuse &amp; Weiße Fliege biologisch in die Schranken weisen</h3><p>Von der korrekten Montage eines Schneckenzauns über das gezielte Anlocken von Marienkäfern und Florfliegen bis zur raschen Notfall-Behandlung bei akutem Befall – zu 100 % ohne synthetische Gifte im Hausgarten.</p><span class="no">Praxis-Methode Nr. 11 • Modul 11 · Seite 173</span></div></div></div></section><section class="linha"><div class="w"><div class="sk"><div class="zi"><img loading="lazy" src="img/IA-09.jpg" alt="Eisheilige, Schafskälte &amp; die 4-Felder-Fruchtfolge für Mitteleuropa"></div><div><h3>Eisheilige, Schafskälte &amp; die 4-Felder-Fruchtfolge für Mitteleuropa</h3><p>Wer Tomaten und Gurken zwei Wochen zu früh ins Freiland setzt, verliert oft in einer einzigen Mai-Nacht die gesamte Arbeit. Der Jahresplan zeigt dir für alle 5 DACH-Klimazonen exakt, wann Vorkultur, Auspflanzen und Winterernte anstehen.</p><span class="no">Praxis-Methode Nr. 12 • Modul 08 · Seite 127</span></div></div></div></section><section class="linha"><div class="w"><div class="sk"><div class="zi"><img loading="lazy" src="img/IA-25.jpg" alt="Stab- und Buschtomaten richtig ausgeizen, anbinden und vor Regendach-Fäule schützen"></div><div><h3>Stab- und Buschtomaten richtig ausgeizen, anbinden und vor Regendach-Fäule schützen</h3><p>Wie viele Stunden direkte Sonne eine Tomate für süße Früchte braucht, welche Kübelgröße (mindestens 20 bis 30 Liter) auf dem Balkon Pflicht ist und wie du Blütenendfäule von Anfang an verhinderst.</p><span class="no">Praxis-Methode Nr. 13 • Anhang B · Seite 281</span></div></div></div></section><section class="linha"><div class="w"><div class="sk"><div class="zi"><img loading="lazy" src="img/IA-101.jpg" alt="Regenwasser vom Dach ernten: Die 200-Liter-Regentonne mit Überlauf und Mückenschutz"></div><div><h3>Regenwasser vom Dach ernten: Die 200-Liter-Regentonne mit Überlauf und Mückenschutz</h3><p>Leitungswasser ist oft kalt und kalkhaltig – temperiertes Regenwasser ist das beste Elixier für empfindliche Jungpflanzen. So schließt du deine Regentonne sauber und kindersicher direkt neben dem Beet an.</p><span class="no">Praxis-Methode Nr. 14 • Modul 10 · Seite 168</span></div></div></div></section><section class="linha"><div class="w"><div class="sk"><div class="zi"><img loading="lazy" src="img/IA-81.jpg" alt="Hochbeet &amp; Pflanztisch auf Hüfthöhe selber bauen: Gärtnern ohne Rückenschmerzen"></div><div><h3>Hochbeet &amp; Pflanztisch auf Hüfthöhe selber bauen: Gärtnern ohne Rückenschmerzen</h3><p>Kompletter Wochenend-Bauplan mit exakter Zuschnittliste, Schraubenmaßen, Nagerschutzgitter gegen Wühlmäuse und Teichfolie – ideal für Terrasse, Hof und jeden, der sich beim Gärtnern nicht mehr tief bücken möchte.</p><span class="no">Praxis-Methode Nr. 15 • Modul 13 · Seite 236</span></div></div></div></section><section class="linha"><div class="w"><div class="sk"><div class="zi"><img loading="lazy" src="img/IA-78.jpg" alt="Vertikaler Pflanzturm für Erdbeeren, Pflücksalat und Küchenkräuter auf 0,5 m²"></div><div><h3>Vertikaler Pflanzturm für Erdbeeren, Pflücksalat und Küchenkräuter auf 0,5 m²</h3><p>Ein senkrechtes Pflanzrohr mit zentralem Bewässerungskern verwandelt jede sonnige Balkonecke oder Hauswand in eine vertikale Erntewand mit bis zu 24 Pflanzstellen auf kleinstem Raum.</p><span class="no">Praxis-Methode Nr. 16 • Modul 13 · Seite 226</span></div></div></div></section><section class="linha"><div class="w"><div class="sk"><div class="zi"><img loading="lazy" src="img/IA-80.jpg" alt="Automatische Urlaubs-Bewässerung aus PET-Flaschen mit regulierbarer Tropfrate"></div><div><h3>Automatische Urlaubs-Bewässerung aus PET-Flaschen mit regulierbarer Tropfrate</h3><p>Du fährst im Sommer für ein verlängertes Wochenende weg? Mit diesem simplen Tropfsystem versorgst du Tomaten, Paprika und Balkonkästen tagelang gleichmäßig direkt an der Wurzel.</p><span class="no">Praxis-Methode Nr. 17 • Modul 13 · Seite 233</span></div></div></div></section><section class="linha"><div class="w"><div class="sk"><div class="zi"><img loading="lazy" src="img/IA-08.jpg" alt="Aussaat ohne Vergeilen: Warum Keimlinge auf der Fensterbank lang und dünn werden"></div><div><h3>Aussaat ohne Vergeilen: Warum Keimlinge auf der Fensterbank lang und dünn werden</h3><p>Das Zusammenspiel aus Raumtemperatur und Licht entscheidet in den ersten 10 Tagen über kräftige, gedrungene Jungpflanzen. Inklusive Schritt-für-Schritt-Anleitung zum Pikieren und 7-Tage-Abhärten vor dem Auspflanzen.</p><span class="no">Praxis-Methode Nr. 18 • Modul 07 · Seite 115</span></div></div></div></section><section class="linha"><div class="w"><div class="sk"><div class="zi"><img loading="lazy" src="img/IA-38.jpg" alt="Knoblauch und Zwiebeln im Herbst stecken für dicke Knollen im nächsten Sommer"></div><div><h3>Knoblauch und Zwiebeln im Herbst stecken für dicke Knollen im nächsten Sommer</h3><p>Der richtige Stecktermin im Oktober, der exakte Reihenabstand von 15 × 25 cm und das sichere Erkennungszeichen am Laub, wann Knoblauch und Speisezwiebeln geerntet und zum Trocknen geflochten werden.</p><span class="no">Praxis-Methode Nr. 19 • Anhang B · Seite 307</span></div></div></div></section><section class="linha"><div class="w"><div class="sk"><div class="zi"><img loading="lazy" src="img/IA-58.jpg" alt="Samenfeste Sorten vermehren &amp; eigenes Saatgut für das nächste Gartenjahr gewinnen"></div><div><h3>Samenfeste Sorten vermehren &amp; eigenes Saatgut für das nächste Gartenjahr gewinnen</h3><p>So erkennst du den Unterschied zwischen F1-Hybriden und samenfesten Sorten, fermentierst Tomatensamen im Wasserglas und lagerst dein eigenes Saatgut dunkel, kühl und trocken für maximale Keimkraft über Jahre.</p><span class="no">Praxis-Methode Nr. 20 • Modul 12 · Seite 199</span></div></div></div></section></div>
+<section><div class="w"><p style="text-align:center;font-size:21px">…und <b>viele weitere Praxisanleitungen auf 347 Seiten</b> in 13 Modulen: Standort- &amp; Bodenanalyse, No-Dig-Beete, Topf- &amp; Balkongarten, Kompost &amp; Wurmkiste, Bokashi &amp; Flüssigdünger, Aussaat, Mischkultur, Bewässerung, biologischer Pflanzenschutz, Samengewinnung und 8 Wochenend-Bauprojekte.</p><div class="cta-wrap"><a class="btn js-checkout" href="#oferta">Jetzt Handbuch + 3 Boni sichern<small>Sofortiger PDF-Download • Heute nur <span class="js-price">$19.90</span></small></a><div class="seg">🔒 Sichere Bezahlung • <span class="js-days">7</span> Tage Geld-zurück-Garantie</div></div></div></section>
 
-    <a onclick="return false;" href="https://pay.hotmart.com/T107366167D?checkoutMode=2" class="btn hotmart-fb hotmart__button-checkout">
-      ICH WILL DAS KOMPLETTE HANDBUCH
-      <small>sofortiger Zugriff, direkt auf deinem Smartphone</small>
-    </a>
-    <p class="sob-btn">PDF optimiert fürs Smartphone · 295 Seiten · 104 Fotos<br>Mit deinem Kauf unterstützt du die Fortführung des Kanals 💚</p>
-    <div class="marca">Ausgabe 2026</div>
-  </div>
-</header>
+<div class="faixa">Einführungs-Aktion: <b>78% Rabatt</b> heute!<br>Sichere dir deine <b>3 Gratis-Bonus-Bücher</b> zu deinem Exemplar!</div>
+<section class="banda2"><div class="w">
+ <div class="estrelas">* * *</div><h2>Plus: Diese <i>3 Bonus-Bücher</i> erhältst du heute GRATIS dazu</h2>
+ <div class="bn"><div class="fotos"><img loading="lazy" src="img/mockup_b1.webp" alt="Der große DACH-Aussaat- &amp; Pflanzkalender"><img loading="lazy" src="img/bonus1_pagina.jpg" alt="Beispielseite"></div><div><span class="tag">Bonus-Buch #1</span><h3>Der große DACH-Aussaat- &amp; Pflanzkalender</h3><p>Nie wieder zu früh oder zu spät säen! Dieser übersichtliche Jahreskalender zeigt dir für alle 5 Garten-Klimazonen in Deutschland, Österreich und der Schweiz genau, wann deine 24 wichtigsten Gemüsekulturen vorgezogen, ins Freiland gepflanzt und geerntet werden.</p><ul><li>Alle 5 DACH-Klimazonen vom milden Weinbauklima bis zum Alpenvorland</li><li>Monat-für-Monat-Übersicht von Januar bis Dezember inklusive Eisheilige</li><li>Perfekt zum Ausdrucken und Aufhängen im Gartenhaus oder in der Küche</li></ul><span class="gratis">Wert: $19 — Heute GRATIS inklusive!</span></div></div><div class="bn"><div class="fotos"><img loading="lazy" src="img/mockup_b2.webp" alt="24 Pflanzen-Steckbriefe auf einen Blick"><img loading="lazy" src="img/bonus2_pagina.jpg" alt="Beispielseite"></div><div><span class="tag">Bonus-Buch #2</span><h3>24 Pflanzen-Steckbriefe auf einen Blick</h3><p>Das kompakte Schnellnachschlagewerk für Beet, Hochbeet, Pflanzkübel und Balkon. Jede der 24 beliebtesten Gemüse- und Kräuterarten auf einer eigenen, reich bebilderten Übersichtsseite mit allen Maßen, die sonst in keinem Samenpäckchen stehen.</p><ul><li>Exakte Sonnenstunden, Saattiefe, Reihenabstand &amp; Mindest-Topfgröße in Litern</li><li>Gute und schlechte Pflanznachbarn für deine Mischkultur auf einen Blick</li><li>Die häufigsten Kulturfehler bei Tomate, Zucchini, Salat &amp; Co. sicher vermeiden</li></ul><span class="gratis">Wert: $17 — Heute GRATIS inklusive!</span></div></div><div class="bn"><div class="fotos"><img loading="lazy" src="img/mockup_b3.webp" alt="Die Garten-Apotheke &amp; Notfall-Diagnose"><img loading="lazy" src="img/bonus3_pagina.jpg" alt="Beispielseite"></div><div><span class="tag">Bonus-Buch #3</span><h3>Die Garten-Apotheke &amp; Notfall-Diagnose</h3><p>Wenn Blätter sich verfärben oder Schädlinge auftauchen, zählt schnelles, richtiges Handeln. Mit dem visuellen Blatt-Diagnose-Schlüssel erkennst du die Ursache sofort – und stellst dir aus 14 erprobten Bio-Rezepten die passende Hilfe selbst her.</p><ul><li>Farb-Diagnose-Tafeln für Mangelerscheinungen, Pilze und Schädlinge</li><li>14 Rezepte für Flüssigdünger, Pflanzenjauchen und schonenden Pflanzenschutz</li><li>Inklusive praktischer Saison-Checklisten und Garten-Fachbegriffe-Glossar</li></ul><span class="gratis">Wert: $14 — Heute GRATIS inklusive!</span></div></div>
+</div></section>
 
-<!-- ------------------------------------------------------------------ problem -->
-<section class="dor">
-  <div class="env">
-    <h2>Das kennst du bestimmt</h2>
-    <ul>
-      <li>Du hast im Baumarkt oder auf dem Markt schöne Jungpflanzen gekauft – und nach einer Woche sind sie eingegangen.</li>
-      <li>Du hast Geld für teure Pflanzerde ausgegeben – und nach dem dritten Gießen war die Erde hart wie ein Ziegelstein.</li>
-      <li>Du hast Tomaten gepflanzt und nur Blätter geerntet. Jede Menge Blattwerk, aber keine einzige reife Frucht.</li>
-      <li>Du hast Blattläuse an deinen Pflanzen entdeckt und wusstest nicht, ob Schmierseife, Brennnesseljauche oder Wegwerfen hilft.</li>
-      <li>Du hast zum zehnten Mal "mäßig gießen" und "in nährstoffreiche Erde pflanzen" gelesen, ohne dass dir jemand sagt: <strong>wie viele Liter</strong> und <strong>wie viele Zentimeter</strong>.</li>
-      <li>Nach drei Wochen hast du frustriert aufgegeben und das Beet ist komplett überwuchert.</li>
-    </ul>
+<section id="oferta"><div class="w">
+ <div class="oferta">
+  <h2>Sichere dir jetzt das komplette <i>Lebendiger-Garten-Paket</i></h2>
+  <img src="img/mockup_bundle.webp" alt="Das komplette Lebendiger-Garten-Paket" style="width:100%;max-width:520px;margin:12px auto 0">
+  <table><tr><td>Lebendiger Garten — Das Praxishandbuch (347 Seiten, 13 Module, 40 Baupläne)</td><td>$39</td></tr><tr><td>Bonus #1: Der große DACH-Aussaat- &amp; Pflanzkalender (für alle 5 Klimazonen)</td><td>$19</td></tr><tr><td>Bonus #2: 24 Pflanzen-Steckbriefe auf einen Blick (Beet, Hochbeet &amp; Balkon)</td><td>$17</td></tr><tr><td>Bonus #3: Die Garten-Apotheke, Blatt-Diagnose &amp; 14 erprobte Bio-Rezepte</td><td>$14</td></tr><tr class="tot"><td>Gesamtwert des Pakets</td><td>$89</td></tr></table>
+  <div class="economia">Du sparst heute 78%</div>
+  <div class="preco"><s>$89</s><span class="js-price">$19.90</span></div>
+  <p style="font-size:16px;margin-bottom:6px">Einmalige Zahlung • Sofortiger PDF-Download + Mitgliederbereich • Kein Abo</p>
+  <div class="cta-wrap"><a class="btn js-checkout" href="#oferta">Ja! Ich will das Handbuch + 3 Gratis-Boni<small>Sofortiger PDF-Download • Heute nur <span class="js-price">$19.90</span></small></a><div class="seg">🔒 Sichere Bezahlung • <span class="js-days">7</span> Tage Geld-zurück-Garantie</div></div>
+ </div>
+</div></section>
 
-    <div class="frase">
-      Niemand verliert seinen Gemüsegarten aus Mangel an Liebe. Man verliert ihn aus Mangel an einer Methode mit exakten Zahlen.
-    </div>
+<section class="banda2"><div class="w"><div class="gar">
+ <div class="badge"><span>GELD ZURÜCK</span><b class="js-days">7</b><span>TAGE GARANTIE</span></div>
+ <div><h2>Unsere „Behalte-das-Buch“ <i>Geld-zurück-Garantie</i></h2>
+ <p style="margin-top:10px">Lade dir das Praxishandbuch „Lebendiger Garten“ und die drei Bonus-Bücher noch heute herunter. Probiere den Schraubglas-Bodentest aus, mische dein erstes Substrat nach der 3-2-1-Formel oder plane dein Hochbeet. Wenn du nicht zu 100 % begeistert bist, antworte einfach innerhalb von <span class="js-days">7</span> Tagen auf deine Kaufbestätigungs-E-Mail und du bekommst dein gesamtes Geld zurück – und darfst die Bücher trotzdem behalten. Ohne Wenn und Aber.</p></div>
+</div></div></section>
 
-    <p>Das Internet ist voll von vagen Ratschlägen. Du brauchst nicht noch ein Video, das dir erklärt, dass "die Pflanze Sonne mag". Du musst wissen, dass Kopfsalat <strong>4 Stunden direkte Sonne</strong> braucht, dass ein Beet <strong>1,20 m breit</strong> sein sollte (weil das genau die doppelte Armreichweite ist), und dass Seifenlösung <strong>3 Tage</strong> haltbar ist – danach verliert sie ihre Wirkung.</p>
-  </div>
-</section>
+<section><div class="w">
+ <div class="estrelas">* * *</div><h2>Warum du <i>Lebendiger Garten</i> lieben wirst</h2>
+ <div class="pq"><div class="zi"><img loading="lazy" src="img/life_cozinha_impresso.jpg" alt=""></div><div><h3>Ernte knackiges, ungespritztes Bio-Gemüse direkt vor deiner eigenen Tür</h3><p>Du weißt zu 100 %, was in deiner Erde steckt und dass kein Tropfen synthetisches Gift auf deinen Tomaten, deinem Salat oder deinen Kräutern gelandet ist. Frischer und aromatischer als aus dem eigenen Beet geht es nicht.</p></div></div><div class="pq"><div class="zi"><img loading="lazy" src="img/life_nos_bancada.jpg" alt=""></div><div><h3>Spare jeden Monat bares Geld für Erde, Dünger und teure Jungpflanzen</h3><p>Wer einmal lernt, aus Laub, Rasenschnitt und Küchenabfällen erstklassigen Kompost, Wurmhumus und Flüssigdünger selbst herzustellen und eigenes Saatgut zu gewinnen, macht seinen Garten dauerhaft unabhängig von teuren Baumarkt-Produkten.</p></div></div><div class="pq"><div class="zi"><img loading="lazy" src="img/life_celular.jpg" alt=""></div><div><h3>Praxiswissen, das auch ohne Internetverbindung im Gartenhaus funktioniert</h3><p>Gedruckte Tabellen und gespeicherte PDFs brauchen keinen Empfang und kein langes Suchen in widersprüchlichen Internetforen. Ein Blick auf den Steckbrief oder den Diagnose-Schlüssel genügt.</p></div></div><div class="pq"><div class="zi"><img loading="lazy" src="img/life_familia.jpg" alt=""></div><div><h3>Ein Schatz an Naturwissen, den du an deine Kinder und Enkelkinder weitergibst</h3><p>Gemeinsam Radieschen säen, die erste eigene Erdbeere pflücken und beobachten, wie aus einem Samenkorn eine kräftige Pflanze heranwächst – das sind Erlebnisse im Garten, an die sich Kinder ein Leben lang erinnern.</p></div></div>
+ <div class="cta-wrap"><a class="btn js-checkout" href="#oferta">Jetzt Handbuch + 3 Boni sichern<small>Sofortiger PDF-Download • Heute nur <span class="js-price">$19.90</span></small></a><div class="seg">🔒 Sichere Bezahlung • <span class="js-days">7</span> Tage Geld-zurück-Garantie</div></div>
+</div></section>
 
-<!-- -------------------------------------------------------------- solution -->
-<section class="solucao">
-  <div class="env">
-    <h2>Was sich mit diesem Handbuch ändert</h2>
-    <p>Dies ist kein Bildband zum Träumen. Es ist ein echtes Werkstatthandbuch: jedes Maß in Zentimetern, jedes Mischungsverhältnis für Dünger, jeder Tag Wartezeit – praxiserprobt im Garten, Hochbeet, Hinterhof und auf dem Balkon.</p>
-    <ul>
-      <li><strong>Beet fertig in 30 Tagen, ganz ohne Umgraben.</strong> Die fünf Schichten mit genauer Dicke und wo du das Material kostenlos bekommst.</li>
-      <li><strong>Eigener Dünger aus Küchenabfällen.</strong> 3-Eimer-Komposter, Wurmkiste und Bokashi – inklusive Speiseresten wie Fleisch und Käse, die auf den normalen Kompost nicht dürfen.</li>
-      <li><strong>Aussaat- und Pflanzkalender nach Jahreszeiten.</strong> Was du in welchem Monat aussäen kannst, abgestimmt auf Klima und Temperatur.</li>
-      <li><strong>Schädlinge per Fotodiagnose erkennen.</strong> Schnelldiagnose in 4 Fragen plus Rezept für wirksame biologische Pflanzenschutzmittel.</li>
-      <li><strong>Funktioniert auch ohne großen Garten.</strong> Pflanzkübel, Säcke, Mörtelwannen und vertikaler Pflanzturm mit exaktem Litervolumen für jedes Gemüse.</li>
-    </ul>
+<section class="banda2"><div class="w" style="max-width:820px">
+ <div class="estrelas">* * *</div><h2>Häufig gestellte <i>Fragen</i></h2>
+ <div class="faq"><details><summary>Ist das ein gedrucktes Buch oder ein E-Book (PDF)?</summary><p>Es handelt sich um ein umfassendes digitales Buch (PDF-Format) in voller Farbe. Direkt nach der Bestellung erhältst du sofortigen Zugang zum kompletten 347-seitigen Praxishandbuch, allen 13 einzeln sortierten Modulen im Mitgliederbereich sowie den 3 kostenlosen Bonus-Büchern. Es wird kein physisches Paket per Post verschickt.</p></details><details><summary>Kann ich das Handbuch und die Kalender zu Hause oder im Copyshop ausdrucken?</summary><p>Ja, ausdrücklich! Du erhältst neben der schnellen Mobil-Edition eine hochauflösende Druck-Edition (DIN A4). Viele Leserinnen und Leser lassen sich das Buch (oder ihre Lieblingsmodule und die 3 Bonus-Bücher) im Copyshop mit einer praktischen Spiralbindung binden, damit es auf dem Pflanztisch komplett flach offen liegen bleibt.</p></details><details><summary>Kann ich es auf meinem Smartphone, Tablet (iPad / Android) oder PC lesen?</summary><p>Ja. Das PDF-Format lässt sich auf jedem Smartphone, Tablet, Laptop, PC und PDF-fähigen E-Reader öffnen. Zusätzlich hast du Zugang zu unserem übersichtlichen Online-Mitgliederbereich, in dem das gesamte Buch bereits komfortabel in die einzelnen Module aufgeteilt ist.</p></details><details><summary>Ich habe nur einen kleinen Balkon oder ein einziges Hochbeet – lohnt sich das Buch für mich?</summary><p>Absolut! Ein eigenes Kapitel (Modul 04: Gärtnern ohne Garten) sowie alle 24 Pflanzen-Steckbriefe zeigen dir die exakten Topfgrößen in Litern, die 3-2-1-Substratmischung für Kübel und vertikale Bauprojekte, mit denen du selbst auf 2 Quadratmetern Balkon erstaunliche Mengen erntest.</p></details><details><summary>Sind alle Inhalte auf das Klima in Deutschland, Österreich und der Schweiz (DACH) abgestimmt?</summary><p>Ja, zu 100 %. Alle Aussaat-, Vorkultur- und Pflanztermine berücksichtigen die mitteleuropäischen Jahreszeiten, die Eisheiligen im Mai, die Schafskälte im Juni sowie die 5 verschiedenen Garten-Klimazonen vom milden Weinbauklima bis zu den kühleren Mittelgebirgs- und Alpenlagen.</p></details><details><summary>Was passiert, wenn mir das Handbuch nicht gefällt?</summary><p>Du bist durch unsere 7-Tage-Geld-zurück-Garantie vollständig abgesichert. Wenn du das Buch herunterlädst und merkst, dass es doch nichts für dich ist, genügt eine kurze Antwort auf deine Kaufbestätigungs-E-Mail innerhalb von 7 Tagen und du erhältst den vollen Kaufpreis erstattet – ohne Wenn und Aber.</p></details></div>
+</div></section>
 
-    <div class="pilares">
-      <div class="pilar">
-        <h3>Kostenloser Dünger</h3>
-        <p>Bokashi, Heißkompost, Wurmhumus und 14 Bio-Flüssigdünger-Rezepte. Nie wieder teuren Dünger im Sack kaufen.</p>
-      </div>
-      <div class="pilar">
-        <h3>Beete, die funktionieren</h3>
-        <p>Die No-Dig-Methode Schicht für Schicht mit exakten Maßen – auch für Terrassenplatten und Betonflächen.</p>
-      </div>
-      <div class="pilar">
-        <h3>Lebendiger Boden</h3>
-        <p>Schüttelglas-Test, Regenwurm-Zählung und pH-Wert ohne Labor. Erfahre genau, welche Erde du hast, bevor du pflanzt.</p>
-      </div>
-      <div class="pilar">
-        <h3>Ernte das ganze Jahr</h3>
-        <p>Staffelaussaat und Mischkultur: Jede Woche frisch ernten, statt alles auf einmal und danach monatelang nichts.</p>
-      </div>
-    </div>
-  </div>
-</section>
+<div class="faixa">Heute mit <b>78% Rabatt</b> + <b>3 Gratis-Bonus-Büchern</b> sichern</div>
+<section><div class="w"><div class="cta-wrap"><a class="btn js-checkout" href="#oferta">Jetzt Handbuch + 3 Boni herunterladen<small>Sofortiger PDF-Download • Heute nur <span class="js-price">$19.90</span></small></a><div class="seg">🔒 Sichere Bezahlung • <span class="js-days">7</span> Tage Geld-zurück-Garantie</div></div></div></section>
 
-<!-- ---------------------------------------------------------------- look inside -->
-<section class="dentro">
-  <div class="env">
-    <h2>Blick ins Buch</h2>
-    <p>Echte Seiten aus dem Handbuch – ungeschönt und direkt aus der Praxis.</p>
-    <div class="paginas">
-      <figure>
-        <img src="img/p_canteiro.jpg?v=5" alt="Der Schichtaufbau des No-Dig-Beetes im Querschnitt" loading="lazy">
-        <figcaption>Die 5 Schichten im Querschnitt</figcaption>
-      </figure>
-      <figure>
-        <img src="img/p_bokashi.jpg?v=5" alt="Aufbau und Funktionsweise des Bokashi-Fermenters" loading="lazy">
-        <figcaption>Der Bokashi-Fermenter</figcaption>
-      </figure>
-      <figure>
-        <img src="img/p_torre.jpg?v=5" alt="Vertikaler PVC-Pflanzturm DN 160 mit 24 Pflanzplätzen" loading="lazy">
-        <figcaption>Vertikaler PVC-Pflanzturm</figcaption>
-      </figure>
-      <figure>
-        <img src="img/p_ficha.jpg?v=5" alt="Gemüse-Steckbrief Kopfsalat mit Kulturanleitung und Abständen" loading="lazy">
-        <figcaption>Steckbrief für jedes Gemüse</figcaption>
-      </figure>
-      <figure>
-        <img src="img/p_praga.jpg?v=5" alt="Visueller Leitfaden zur Bestimmung von 4 häufigen Pilzkrankheiten" loading="lazy">
-        <figcaption>Schädlings- & Pilzdiagnose</figcaption>
-      </figure>
-      <figure>
-        <img src="img/p_calendario.jpg?v=5" alt="Entscheidungstabelle Direktsaat oder Voranzucht" loading="lazy">
-        <figcaption>Direktsaat vs. Voranzucht</figcaption>
-      </figure>
-    </div>
-  </div>
-</section>
-
-<!-- -------------------------------------------------------------- numbers -->
-<section>
-  <div class="env">
-    <h2>Das steckt drin</h2>
-    <div class="numeros">
-      <div class="num"><b>295</b><span>Seiten</span></div>
-      <div class="num"><b>24</b><span>Gemüse-Steckbriefe</span></div>
-      <div class="num"><b>40</b><span>Diagramme</span></div>
-      <div class="num"><b>8</b><span>Wochenend-Projekte</span></div>
-    </div>
-    <p style="margin-top:26px">Dazu der Saison-Aussaatkalender, die Schnelldiagnose-Tabelle für Schädlinge, 14 Rezepte für Dünger und biologischen Pflanzenschutz sowie praktische Checklisten zum Ausdrucken für deinen Garten.</p>
-  </div>
-</section>
-
-<!-- ---------------------------------------------------------------- channel -->
-<section class="canal">
-  <div class="env">
-    <h2>9,99 € ist ein symbolischer Beitrag</h2>
-    <p>Das Buch umfasst 295 Seiten, 104 Fotos und 40 Diagramme. Der Preis deckt die monatelange Arbeit bei weitem nicht ab – und das soll er auch gar nicht.</p>
-    <p>Der Kanal Einfacher Gemüsegarten ist und bleibt für jeden kostenlos. Aber das Testen, Filmen und Schneiden jedes Videos kostet enorm viel Zeit – und Zeit ist das Einzige, was man nicht im Garten anbauen kann.</p>
-    <p><strong>Mit deinem Kauf unterstützt du den Kanal direkt.</strong> Du erhältst die erprobte Methode kompakt und strukturiert an einem Ort, und ermöglichst gleichzeitig, dass neue Videos für alle weiterhin kostenlos erscheinen können.</p>
-  </div>
-</section>
-
-<!-- ------------------------------------------------------------ closing -->
-<section class="fechar" id="comprar-topo">
-  <div class="env">
-    <h2>Starte mit dem richtigen Beet</h2>
-    <p>Wenn du schon einmal mehr als 9,99 € für Pflanzen ausgegeben hast, die eingegangen sind, hat sich dieses Handbuch schon mit der ersten erfolgreichen Ernte bezahlt gemacht. Und ganz nebenbei hilfst du dem Kanal, weiter kostenlose Videos zu produzieren.</p>
-
-    <div class="preco" style="color:var(--tinta)">
-      <span class="de" style="color:var(--tinta-fraca)">27 €</span>
-      <span class="por" style="color:var(--verde-escuro)">9,99 €</span>
-      <span class="vez" style="color:var(--tinta-fraca)">sichere Einmalzahlung per Karte, PayPal oder Klarna</span>
-    </div>
-
-    <a onclick="return false;" href="https://pay.hotmart.com/T107366167D?checkoutMode=2" class="btn hotmart-fb hotmart__button-checkout">
-      ICH WILL DAS KOMPLETTE HANDBUCH
-      <small>sofortiger Zugriff, direkt auf deinem Smartphone</small>
-    </a>
-
-    <div class="garantia">
-      <h3>Wie du das Handbuch erhältst</h3>
-      <p>Direkt nach erfolgreicher Zahlung erhältst du die PDF-Datei per E-Mail. Du kannst sie auf deinem Smartphone, Tablet oder Computer öffnen und für immer behalten – ohne Abo, ohne Folgekosten und komplett ohne Internetverbindung lesbar.</p>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <div class="env">
-    <img src="img/logo.png?v=5" alt="" style="width:64px;height:64px;border-radius:50%;margin:0 auto 14px;opacity:.9">
-    <p>Kanal Einfacher Gemüsegarten · Ausgabe 2026</p>
-    <p style="margin-top:8px"><a href="#">Kontakt</a> · <a href="#">Kaufbedingungen</a> · <a href="#">Datenschutz</a></p>
-  </div>
-</footer>
-
-<!-- ------------------------------------------------------- mobile fixed bar -->
-<div class="barra">
-  <div class="linha">Lebendiger Gemüsegarten · <b>9,99 €</b></div>
-  <a onclick="return false;" href="https://pay.hotmart.com/T107366167D?checkoutMode=2" class="btn hotmart-fb hotmart__button-checkout">HANDBUCH SICHERN</a>
-</div>
-
-</body>
-</html>
+<footer><div class="w">
+ <p><b>Wichtiger Hinweis:</b> Dieses Praxishandbuch vermittelt traditionelles und ökologisches Gartenwissen für den privaten Haus- und Kleingarten zu Bildungszwecken. Beachte bei Bauprojekten im Kleingarten stets deine lokale Kleingartenordnung (BKleingG) und verwende im Pflanzenschutz ausschließlich für den Haus- und Kleingarten zugelassene Mittel bzw. Grundstoffe (§ 42 PflSchG). Die Ernteergebnisse hängen von Standort, Witterung und Pflege ab.</p>
+ <p>Dies ist ein digitales Produkt (PDF-E-Book + Zugang zum Online-Mitgliederbereich). Es wird kein gedrucktes Buch per Post versendet. Die Fotos zeigen das Handbuch, wie du es zu Hause oder in jedem Copyshop auf DIN A4 ausdrucken und mit einer Spiralbindung versehen lassen kannst.</p>
+ <p>Die Zahlungsabwicklung erfolgt sicher über unseren Checkout-Partner. Bei Fragen zu deiner Bestellung antworte einfach direkt auf deine Kaufbestätigungs-E-Mail.</p>
+ <p>© <span id="ano">2026</span> <span class="js-brand">Lebendiger Garten · Einfacher Gemüsegarten</span>. Alle Rechte vorbehalten.</p>
+</div></footer>
+<div class="barra"><a class="btn js-checkout" href="#oferta">Handbuch + 3 Boni sichern — <span class="js-price">$19.90</span></a></div>
+<script>
+(function(){
+  var c = window.SALES_CONFIG || {};
+  document.querySelectorAll('.js-checkout').forEach(function(a){ if (c.checkoutUrl) a.href = c.checkoutUrl; });
+  document.querySelectorAll('.js-price').forEach(function(e){ if (c.price) e.textContent = c.price; });
+  document.querySelectorAll('.js-days').forEach(function(e){ if (c.guaranteeDays) e.textContent = c.guaranteeDays; });
+  document.querySelectorAll('.js-brand').forEach(function(e){ if (c.brand) e.textContent = c.brand; });
+  var y = document.getElementById('ano'); if (y) y.textContent = new Date().getFullYear();
+})();
+</script>
+</body></html>
